@@ -1,0 +1,17 @@
+#circles {
+    display: flex;
+    margin: auto;
+}
+
+.circle1,
+.circle2,
+.circle3,
+.circle4,
+.circle5,
+.circle6 {
+    margin: 150px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
