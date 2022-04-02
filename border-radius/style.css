@@ -1,0 +1,28 @@
+#shape {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: 50px auto;
+    background-color: red;
+}
+
+input, button{
+    display: flex;
+    margin: 20px auto;
+}
+
+#br {
+    width: 250px;
+    outline: 0;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.css {
+    display: flex;
+    justify-content: center;
+}
+
+.css-code {
+    font-size: 10px;
+    display: flex;
+}
