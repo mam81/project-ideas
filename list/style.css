@@ -1,0 +1,43 @@
+body {
+    display: grid;
+    grid-template-columns: 0.4fr 0.2fr 0.4fr;
+    background-color: antiquewhite;
+}
+
+div {
+    margin-top: 150px;
+}
+
+.addBtn, .removeBtn {
+    display: flex;
+    margin: 20px auto;
+    width: 20px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.name {
+    font-family: sans-serif;
+    margin: 170px 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.others {
+    font-family: sans-serif;
+    opacity: 0;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+li {
+    user-select: all;
+}
+
+li::selection {
+    color: white;
+    background-color: blue;
+}
